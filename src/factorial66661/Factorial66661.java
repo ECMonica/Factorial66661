@@ -17,14 +17,14 @@ public class Factorial66661 {
     public static void main(String[] args) {
         
         int cont=1;
-        int suma=0;
+        int multi=1;
         
         while (cont < 15) {
         System.out.println("Contador = " + cont);
-        suma += cont;
+        multi *= cont;
         cont++;
         }
-        System.out.println("La suma es= " + suma);
+        System.out.println("La multiplicación es= " + multi);
     }
     
 }
